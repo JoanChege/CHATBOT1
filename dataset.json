@@ -241,7 +241,7 @@
     },
     {"tag": "fact-12",
         "patterns": ["Can people with mental illness recover?"],
-        "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."]
+        "responses": ["When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life.", "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."]
     },
     {"tag": "fact-13",
         "patterns": ["What should I do if I know someone who appears to have the symptoms of a mental disorder?"],
@@ -383,7 +383,601 @@
     {"tag":"causes",
         "patterns":["What are some causes of depression?", " What causes depression?", " Depression causes"],
         "responses":["stress or a stressful life", " death of a close friend or a family friend", "divorce", " miscarriages for pregnant women", " post partum depression for mothers who have just given birth", " poverty or lack of money"," unemployment"," lack of jobs or failed interviews","getting fired"," money worries", "trauma such as rape or witnessing a crime", "failing in school", "having to deal with many tasks or being the person many people depend on"]
+    },
+    {
+        "tag":"parents",
+            "patterns":["I feel i have let my parents down"],
+            "responses":["No matter what,your parents will always be proud of you and will love you.", "You will feel much better if you share your feelings with them.","You could try to hold a meeting with them and air out any of the issues you are facing.","Call them if they are not physically available", "If your parent is not available talk to your aunt, uncle or your older cousins"]
+    },
+     {
+        "tag":"useless",
+            "patterns":["I am good for nothing", "I feel like I am useless"],
+            "responses":[" Don't ever think you cannot achieve what you want.","You are capable of reaching your goals.Here is a quote for you Everything you can imagine is real."]
+    },
+     {
+        "tag":"failure",
+            "patterns":["i am afraid i will fail again"],
+            "responses":["failure is the stepping stone towards success.Never fear failure.","Your hardwork and determination will help you reach your goal."]
+    },
+     {
+        "tag":"causes",
+            "patterns":["What are the causes of depression?"],
+            "responses":["It's complicated, and there are multiple causes of major depression. Factors such as genetic vulnerability, severe life stressors, substances you may take (some medications, drugs and alcohol) and medical conditions can affect the way your brain regulates your moods.",""]
+    },
+     {
+        "tag":"top-causes",
+            "patterns":["What are the top causes of depression?"],
+            "responses":["Abuse. Past physical, sexual, or emotional abuse can increase the vulnerability to clinical depression later in life."]
+    },
+     {
+        "tag":"abuse",
+            "patterns":["I was abused"],
+            "responses":["I am very sorry to hear that","I hope that you have healed from the hurt","Did you take legal actions towards the abuser. If not here is the helpline 071234567, they assist abuse victims."]
+    },
+     {
+        "tag":"rape",
+            "patterns":["I was raped","I was physically assulted"],
+            "responses":["I am very sorry to hear that","I hope that you have healed from the hurt","Did you take legal actions towards the abuser. If not here is the helpline 071234578, they assist abuse victims.","Have you visited the doctor? If not please go to see a medical practioner immediately"]
+    },
+     {
+        "tag":"emotional-abuse",
+            "patterns":["I was gaslighed by my employer", "I was gaslighed by my friend", "I was gaslighed by my mother","I was gaslighed by my father","I was gaslighed by my older sibling","I was gaslighed by my younger sibling"],
+            "responses":["Do not mind them","Focus on yourself","Before listening to their words make sure you internalize what they said and respond respectfully"]
+    },
+     {
+        "tag":"country-highest",
+            "patterns":["Which country has the highest rate of depression?"],
+            "responses":["The most depressed country is Afghanistan, where more than one in five people suffer from the disorder."]
+    },
+     {
+        "tag":"country-lowest",
+            "patterns":["Which country has the lowest rate of depression?"],
+            "responses":["The least depressed is Japan, with a diagnosed rate of less than 2.5 percent"]
+    },
+     {
+        "tag":"panic-attack",
+            "patterns":["What is a panic attack?"],
+            "responses":["Panic attacks come on suddenly and involve intense and often overwhelming fear. They are accompanied by very challenging physical symptoms, like a racing heartbeat, shortness of breath, or nausea. Unexpected panic attacks occur without an obvious cause. Expected panic attacks are cued by external stressors, like phobias. Panic attacks can happen to anyone, but having more than one may be a sign of panic disorder, a mental health condition characterized by sudden and repeated panic attacks."]
+    },
+     {
+        "tag":"panic-attack-solution",
+            "patterns":["What are solutions to a panic attack?"],
+            "responses":["Regulate your breath","Drink water","Visit a doctor in intense cases or when you think you can not handle it","In frequent cases alert those close to you to assist","Make sure you are never alone","Everything will be alright","From a famous series called Jane the virgin try:Inhale and exhale but in spanish:INHALE, EXHALE"]
+    },
+     {
+        "tag":"panic vs anxiety attack",
+            "patterns":["What are symptoms of panic attack vs. anxiety attack?"],
+            "responses":[" Panic and anxiety attacks may feel similar, and they share a lot of emotional and physical symptoms. You can experience both an anxiety and a panic attack at the same time. For instance, you might experience anxiety while worrying about a potentially stressful situation, like an important presentation at work. When the situation arrives, anxiety may culminate in a panic attack. A panic attack or anxiety attack can both cause physical and emotional symptoms, including: - apprehension and worry - distress - fear of dying or losing control - a sense of detachment from the world (derealization) or oneself (depersonalization) - heart palpitations or an accelerated heart rate - chest pain - shortness of breath - tightness in the throat or feeling like you’re choking - dry mouth - sweating - chills or hot flashes - trembling or shaking - numbness or tingling (paresthesia) - nausea, abdominal pain, or upset stomach - headache - feeling faint or dizzy"]
+    },
+     {
+        "tag":"depression and panic and anxiety attack",
+            "patterns":["How is depression related to panic and anxiety attack?"],
+            "responses":["When one has their emotions all over they fail to have control and get either a panic attack or anxiety attack"]
+    },
+     {
+        "tag":"stress-management",
+            "patterns":["How to manage stress?"],
+            "responses":["Stress exhibits differently in different people. While some hide their feelings, other turn to alcohol and drugs. Some withdraw from the world whereas some are angry all the time, lashing out at close ones. The common factor with all these people is that they are under stress and are not able to manage it. Managing stress can be done the following ways: 1. Talk it out: Find a mental health professional and start talking about your day to day life. Talking it out helps reduce the mental worry one carries with them. Talking to a professional helps you understand your mechanisms and how to deal better with them. 2. Exercise: Be it the gym or just a run, doing a cardio activity leads to better stress levels 3. Meditation 4. Breathing exercises 5. Choose an activity of your liking 6. Write a journal"]
+    },
+     {
+        "tag":"no family history",
+            "patterns":["My family has no history of mental illness. Does that mean I am immune?"],
+            "responses":["While family history plays a large role in developing mental illness, it is not the only factor. There are environmental and psychosocial factors that add to the risk factors. No one is immune from developing mental health illness."]
+    },
+     {
+        "tag":"medication",
+            "patterns":["What medication can i use to help with depression"],
+            "responses":["Consult a medical practioner. Do not buy over the counter drugs unless instructed by the doctor"]
+    },
+     {
+        "tag":"medication-side-effects",
+            "patterns":["What are the side effects of medication?"],
+            "responses":[" Like other medication, psychiatric medication has its own set of side effects like Drowsiness, Restlessness, Dizziness, Dry mouth, Constipation, Nausea, and Vomiting. It is usually because of the body getting used to medication. It normally takes a month for the body to get used to these drugs. If you are feeling any of the above symptoms, call your doctor immediately."]
+    },
+    {
+        "tag":"children",
+            "patterns":["Do children have depression?"],
+            "responses":["Children may develop mental health illnesses. Their symptoms differ from adults: 1. Changes in school performance 2. Poor grades despite effort 3. Hyper activity 4. Consistent, recurring nightmares 5. Aggressive behaviour 6. Frequent, unmanageable temper tantrums"]
+    },
+    {
+        "tag":"worry",
+            "patterns":["What do I do if I am worried about my depression"],
+            "responses":[" The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."]
+    },
+    {
+        "tag":"unwell",
+            "patterns":["How do I know if I am unwell?"],
+            "responses":["If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."]
+    },
+    {
+        "tag":"relative",
+            "patterns":["What should I do if I’m worried about my relative? "],
+            "responses":["This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with."]
+    },
+    {
+        "tag":"friend",
+            "patterns":["I am worried about my friend, what should i do?"],
+            "responses":["This may depend on your relationship with them. Gently encouraging someone to seek appropriate support would be helpful to start with."]
+    },
+    {
+        "tag":"command",
+            "patterns":["How do I deal with someone telling me what to do?"],
+            "responses":["Some people may advise you on good evidence of what works with the best of intentions, but it’s important to find out what works best for you."]
+    },
+    {
+        "tag":"prevent",
+            "patterns":["Can you prevent prevent"],
+            "responses":["We can all suffer from mental health challenges in our case depression, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."]
+    },
+    {
+        "tag":"assist-friend",
+            "patterns":["Can someone visit an addiction mental health specialist for a relative?"],
+            "responses":["The family's role in identifying an addiction and in motivating the client to seek treatment is often essential. Their role continues throughout the treatment and recovery phase. If the client is very resistant to suggestions of seeing a specialist, a consultation can be offered to concerned relatives, in order to help them develop a better understanding of the situation and explore measures that can be implemented until the client is ready to engage with professionals."]
+    },
+    {
+        "tag":"alcohol-consumption",
+            "patterns":["How much alcohol is considered “too much”?"],
+            "responses":[" Moderate alcohol consumption is defined as having up to 1 drink per day for women and up to 2 drinks per day for men. For men, heavy drinking is defined as consuming 15 drinks or more per week. For women, heavy drinking is typically defined as consuming 8 drinks or more per week."]
+    },
+    {
+        "tag":"addictions",
+            "patterns":["Can addictions be cured?"],
+            "responses":[" Many clients who currently suffer from one type of addiction or another will permanently recover, either spontaneously or with the support of a service such as ours. Others will experience relapses and hurdles over months and possibly years. Many options might need to be considered from harm reduction to residential rehabilitation in Lebanon or abroad. This is why we consider building a strong therapeutic relationship build on mutual trust and openness a cornerstone of our treatment. Strict confidentiality is respected and sharing of information takes place in the interest of the client and with his consent."]
+    },
+    {
+        "tag":"elderly-depression",
+            "patterns":["Is it normal for an older person living alone to be depressed? "],
+            "responses":["It is not normal for an older person living alone, retired, or away from his/her children to feel depressed. In fact, depression in elderly people can often go untreated because many people think that depression is a normal part of aging and a natural reaction to chronic illness, loss and retirement. Many elderly people and their families also do not recognize the symptoms of depression so it can go unnoticed. According to studies done by IDRAAC, 8.6% of Lebanese older adults are depressed and females are twice more likely to develop depression than males."]
+    },
+    {
+        "tag":"anxiety-depression",
+            "patterns":["What is the meaning of anxiety and depression?"],
+            "responses":[" Depression and anxiety disorders are different, but people with depression often experience symptoms similar to those of an anxiety disorder, such as nervousness, irritability, and problems sleeping and concentrating. But each disorder has its own causes and its own emotional and behavioral symptoms."]
+    },
+    {
+        "tag":"oversleeping",
+            "patterns":["Does oversleeping cause depression?"],
+            "responses":["It's important to remember that oversleeping is a possible symptom of depression and that oversleeping doesn't cause depression. But it can exacerbate and worsen depression symptoms","Try to sleep for 8-10hrs. Do not exceed 10 hours and do not sleep less than 8 hours"]
+    },
+    {
+        "tag":"lack-sleep",
+            "patterns":["Can lack of sleep make you feel sad?"],
+            "responses":["Studies show people who are sleep deprived report increases in negative moods (anger, frustration, irritability, sadness) and decreases in positive moods. And sleeplessness is often a symptom of mood disorders, such as depression and anxiety."]
+    },
+    {
+        "tag":"sleep",
+            "patterns":["What if i can not get enough hours?"],
+            "responses":["Try to organize your time by waking up early and sleeping early. Let us try by waking up 7:00 in the morning, spend the day doing vigorous activities do not just sit down, walk around or go to the gym, then eat on time, then go to bed by 9:00pm. This gets you 10 hours of sleep."]
+    },
+    {
+        "tag":"exercise-gym",
+            "patterns":["What are some of the exercises i could do at the gym?"],
+            "responses":["Depression and anxiety symptoms often improve with exercise. Here are some realistic tips to help you get started and stay motivated.Certainly running, lifting weights, playing basketball and other fitness activities like swimming that get your heart pumping can help."]
+    },
+    {
+        "tag":"exercise-other",
+            "patterns":["What other activities could i do?"],
+            "responses":["Physical activity such as gardening, washing your car, walking around the block or engaging in other less intense activities.These help to improve your mood as long you get off the couch and move"]
+    },
+    {
+        "tag":"exercise-benefits",
+            "patterns":["How does exercise help depression and anxiety?"],
+            "responses":["Regular exercise may help ease depression and anxiety by:Releasing feel-good endorphins, natural cannabis-like brain chemicals (endogenous cannabinoids) and other natural brain chemicals that can enhance your sense of well-being, Taking your mind off worries so you can get away from the cycle of negative thoughts that feed depression and anxiety"]
+    },
+    {
+        "tag":"exercise-benefits1",
+            "patterns":["What are some benefits of regular exercise?"],
+            "responses":["Gain confidence. Meeting exercise goals or challenges, even small ones, can boost your self-confidence. Getting in shape can also make you feel better about your appearance. Get more social interaction. Exercise and physical activity may give you the chance to meet or socialize with others. Just exchanging a friendly smile or greeting as you walk around your neighborhood can help your mood.Cope in a healthy way. Doing something positive to manage depression or anxiety is a healthy coping strategy. Trying to feel better by drinking alcohol, dwelling on how you feel, or hoping depression or anxiety will go away on its own can lead to worsening symptoms."]
+    },
+    {
+        "tag":"exercise-time",
+            "patterns":["How much time is enough for exercising?"],
+            "responses":["Doing 30 minutes or more of exercise a day for three to five days a week may significantly improve depression or anxiety symptoms. But smaller amounts of physical activity — as little as 10 to 15 minutes at a time — may make a difference. It may take less time exercising to improve your mood when you do more-vigorous activities, such as running or bicycling.The mental health benefits of exercise and physical activity may last only if you stick with it over the long term — another good reason to focus on finding activities that you enjoy."]
+    }, 
+    {
+        "tag":"exercise-benefits2",
+            "patterns":["How do I get started and stay motivated?"],
+            "responses":["Identify what you enjoy doing. Figure out what type of physical activities you're most likely to do, and think about when and how you'd be most likely to follow through. For instance, would you be more likely to do some gardening in the evening, start your day with a jog, or go for a bike ride or play basketball with your children after school? Do what you enjoy to help you stick with it.",
+            "Get your mental health professional's support. Talk to your doctor or mental health professional for guidance and support. Discuss an exercise program or physical activity routine and how it fits into your overall treatment plan.",
+        "Set reasonable goals. Your mission doesn't have to be walking for an hour five days a week. Think realistically about what you may be able to do and begin gradually. Tailor your plan to your own needs and abilities rather than setting unrealistic guidelines that you're unlikely to meet.",
+    "Don't think of exercise or physical activity as a chore. If exercise is just another should in your life that you don't think you're living up to, you'll associate it with failure. Rather, look at your exercise or physical activity schedule the same way you look at your therapy sessions or medication — as one of the tools to help you get better.",
+"Analyze your barriers. Figure out what's stopping you from being physically active or exercising. If you feel self-conscious, for instance, you may want to exercise at home. If you stick to goals better with a partner, find a friend to work out with or who enjoys the same physical activities that you do. If you don't have money to spend on exercise gear, do something that's cost-free, such as regular walking. If you think about what's stopping you from being physically active or exercising, you can probably find an alternative solution.",
+"Prepare for setbacks and obstacles. Give yourself credit for every step in the right direction, no matter how small. If you skip exercise one day, that doesn't mean you can't maintain an exercise routine and might as well quit. Just try again the next day. Stick with it."]
+    },
+    {
+        "tag":"exercise-benefits3",
+            "patterns":["Do i need to see my doctor?"],
+            "responses":["Check with your doctor before starting a new exercise program to make sure it's safe for you. Talk to your doctor to find out which activities, how much exercise and what intensity level is OK for you. Your doctor will consider any medications you take and your health conditions. He or she may also have helpful advice about getting started and staying motivated.",
+        "If you exercise regularly but depression or anxiety symptoms still interfere with your daily living, see your doctor or mental health professional. Exercise and physical activity are great ways to ease symptoms of depression or anxiety, but they aren't a substitute for talk therapy (psychotherapy) or medications."]
+    },
+    {
+        "tag":"diabetes",
+            "patterns":["Is depression a side effect of diabetes?"],
+            "responses":["If you have diabetes — either type 1 or type 2 — you have an increased risk of developing depression. And if you're depressed, you may have a greater chance of developing type 2 diabetes. The good news is that diabetes and depression can be treated together."]
+    },
+     {
+        "tag":"diabetes1",
+            "patterns":[" Can low blood sugar cause suicidal thoughts?"],
+            "responses":["The observed association between plasma glucose levels, insulin resistance and suicidal behaviour suggests that disturbances in glucose metabolism are associated with suicidal ideation and attempts."]
+    },
+    {
+        "tag":"anxiety",
+        "patterns":["How long can Anxiety last?"],
+        "responses":["Anxiety attacks usually peak within 10 minutes, and they rarely last more than 30 minutes. But during that short time, you may experience terror so severe that you feel as if you're about to die or totally lose control."]
+    },
+    {
+        "tag":"anxiety1",
+        "patterns":["What are the stages of anxiety?"],
+        "responses":["Anxiety levels are typically classified by the level of distress and impairment experienced into four categories namely, mild anxiety, moderate anxiety, severe anxiety and panic level anxiety."]
+    },
+    {
+        "tag":"anxiety2",
+        "patterns":["At what age does anxiety peak?"],
+        "responses":["Adults ages 30 to 44 have the highest rate of anxiety of this age group, with around 23% of people this age reporting an anxiety disorder within the past year."]
+    },
+    {
+        "tag":"anxiety3",
+        "patterns":["Why is anxiety bad for you?"],
+        "responses":["Anxiety disorders can cause rapid heart rate, palpitations, and chest pain. You may also be at an increased risk of high blood pressure and heart disease. If you already have heart disease, anxiety disorders may raise the risk of coronary events."]
+    },
+    {
+        "tag":"anxiety4",
+        "patterns":["What is the 3 3 3 rule for anxiety?"],
+        "responses":["There's an anxiety-reducing technique called grounding. There are different versions of this, but an easy one to remember is the 3-3-3 rule. Mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."]
+    },
+    {
+        "tag":"thoughts-control",
+        "patterns":["Do we control our thoughts?"],
+        "responses":["We are aware of a tiny fraction of the thinking that goes on in our minds, and we can control only a tiny part of our conscious thoughts. The vast majority of our thinking efforts goes on subconsciously. ... Slips of the tongue and accidental actions offer glimpses of our unfiltered subconscious mental life."]
+    },
+    {
+        "tag":"thoughts-control1",
+        "patterns":["How many thoughts a day do we have?"],
+        "responses":["A new study has suggested that an average person has 6,200 thoughts per day. Thousands of thoughts cross our mind through the day. Many people even complain that they can't sleep immediately after going to bed as their brain does not stop thinking."]
+    },
+    {
+        "tag":"anxiety5",
+        "patterns":["How can we reduce anxiety?"],
+        "responses":["3 3 3 rule is the best method to reduce anxiety.",
+    "In this method you have to mentally note three things you see, three sounds you hear, and then move three parts of your body. This exercise can help your mind refocus on something else."]
+    },
+    {
+        "tag":"ugly",
+        "patterns":["I think I am ugly!"],
+        "responses":["Well do you really think that? Would you like to see the most beautiful face ever? Open your WebCam and voila, the prettiest face on this planet magically appears."]
+    },
+    {
+        "tag":"bullying",
+        "patterns":["I am a victim of bullying"],
+        "responses":[" Bullying is wrong and no one should be bullied.",
+    " I highly recommend you to file a case against your bully."]
+    },
+    {
+        "tag":"bullying1",
+        "patterns":["I am afraid to file a case against bullying"],
+        "responses":["Bullying is very wrong and you shouldn't let anyone overpower you.",
+    " I highly recommend you to stand for yourself and report this to your guardian."]
+    },
+    {
+        "tag":"bullying-types",
+        "patterns":["What are types of bullying?"],
+        "responses":["There is: Physical bullying, verbal bullying, social bullying and cyber bullying"]
+    },
+    {
+        "tag":"bullying2",
+        "patterns":["What is physical bullying?"],
+        "responses":["Physical bullying includes hitting, kicking, tripping, pinching and pushing or damaging property.  Physical bullying causes both short term and long term damage.",
+    "In this case report the bully as this cause physical harm and may lead to death if the offenders does not know how to control their own strength"]
+    },
+    {
+        "tag":"bullying3",
+        "patterns":["What is verbal bullying?"],
+        "responses":["Verbal bulling includes name calling, insults, teasing, intimidation, homophobic or racist remarks, or verbal abuse. While verbal bullying can start off harmless, it can escalate to levels which start affecting the individual target.",
+    "The offender does not know by doing this they can make the offendee commit suicide due to depression, so they indirectly murdered someone",
+"Such cases should be avoided, in cases of resolving disputes avoid verbally bullying someone and solve the issue in a civilized manner."]
+    },
+    {
+        "tag":"bullying4",
+        "patterns":["What is social bullying?"],
+        "responses":["Social bullying, sometimes referred to as covert bullying, is often harder to recognise and can be carried out behind the bullied person’s back.  It is designed to harm someone’s social reputation and / or cause humiliation.",
+    "lying and spreading rumours, negative facial or physical gestures, menacing or contemptuous looks playing nasty jokes to embarrass and humiliate ,mimicking unkindly ,encouraging others to social exclude someone and damaging someone’s social reputation or social acceptance.",
+"Avoid talking about other behind their backs, if you have a problem with someone talk to them face to face and solve the issues amongst yourselves."]
+    },
+    {
+        "tag":"bullying5",
+        "patterns":["What is cyber bullying?"],
+        "responses":["The Cyber Bullying Research Centre defines cyber bullying as:  Intentional and repeated harm inflicted through the use of computers, phones, and other electronic devices.Cyber bullying can be overt or covert bullying behaviours using digital technologies including hardware such as computers and smartphones, and software such as social media, instant messaging, texts, websites and other online platforms.Cyber bullying can happen at any time. It can be in public or in private and sometimes only known to the target and the person bullying.",
+    "It includes: abusive or hurtful texts, emails or posts, images or videos, deliberately excluding others online, nasty gossip or rumours,imitating others online or using their log-in. "]
+    },
+    {
+        "tag":"suicide1",
+        "patterns":["My time has come"],
+        "responses":["Yeahh!! The time has come for you to show the world that you are the greatest person alive, and no one else can be as good as you are."]
+    },
+    {
+        "tag":"therapy",
+        "patterns":["Is psychotherapy a substitute for medication?"],
+        "responses":["Psychotherapy in some cases can be sufficient for the treatment of certain mental conditions. However, it may be needed in conjunction with medication. This is why in several cases, it is not considered as a substitute for medication."]
+    },
+    {
+        "tag":"assist",
+        "patterns":["What should I do if I know someone who appears to have all of the symptoms of a serious mental disorder?"],
+        "responses":["If you know someone who is having symptoms of a mental disorder, do not just think that they will snap out of it. Notify a family member, a mental health professional, a counselor if you think a friend or family member has symptoms of a mental disorder."]
+    },
+    {
+        "tag":"warning-signs",
+        "patterns":[" What are some of the warning signs of depression?"],
+        "responses":["Symptoms of mental disorders vary depending on the type and severity of the condition. Some general symptoms that may suggest a mental illness include: Problems in concentration Long-lasting sadness or irritability Recurrent changes in energy Extremely high and low moods Excessive fear, worry, or anxiety Social withdrawal Dramatic changes in eating or sleeping habits Strong feelings of anger Delusions or hallucinations (seeing or hearing things that are not really there) Increasing inability to cope with daily problems and activities Suicidal thoughts Many unexplained physical problems Confused thinking Abuse of drugs and/or alcohol"]
+    },
+    {
+        "tag":"factors",
+        "patterns":["What Psychological Factors Contribute to depression? "],
+        "responses":["Psychological factors that may contribute to mental illness include specific vulnerabilities such as personality traits, particular extremes in temperament features, specific sensitivities to negative emotions, cognitive susceptibility, dysfunctional attitudes, hopelessness, negative distortions."]
+    },
+    {
+        "tag":"factors1",
+        "patterns":["What Environmental Factors Contribute to depression?"],
+        "responses":["Certain triggering factors could be significant stressors precipitating a mental illness such as: 1. Losses experiences (physical loss after a trauma, loss of significant others, separation, etc… 2. Chronic threats 3. Long-term exposure to traumatic conditions 4. Harmful family dynamic 5. Living in extreme deprivation and poverty 6. Alcohol and substance misuse 7. Severe neglect 8. War, natural disasters, accidents, etc… 9. Chronic pain and incapacitating chronic illness 10. Social discrimination for example towards minorities"]
+    },
+    {
+        "tag":"assist1",
+        "patterns":["Can people get over depression without medication?"],
+        "responses":["Health care professionals have differing opinions on the effectiveness of medication to treat mental illness. Mental illness is a medical illness. A person does not simply get over mental illness without some form of treatment. Mental illness is generally a lifelong, chronic medical illness that needs consistent treatment."]
+    },
+    {
+        "tag":"assist2",
+        "patterns":["Can people stabilize a mental illness simply with medication alone?"],
+        "responses":["hough medications can often aid in the treatment of mental illness, it is unlikely that taking medication as the sole form of treatment will be effective in getting over or stabilizing one's mental illness. Professionals generally recommend therapy along with medications to manage mental illness most effectively. People who suffer the mental illness of severe depression may put pressure on themselves to just get over return to active participation again, but like other mental illnesses, it takes therapy and sometimes medication to stabilize."]
+    },
+    {
+        "tag":"routine",
+        "patterns":[" Why does someone with mental illness need to have a routine?"],
+        "responses":["Mental illness can often disrupt a person's life by hindering that person's ability to focus on and complete tasks that they otherwise would be able to complete. Establishing a productive daily routine can help to normalize that person's daily life and having a routine most often contributes to increased life satisfaction that comes with personal accomplishment (in the human population as a whole, not just those living with mental illness)."]
+    },
+    {
+        "tag":"medication1",
+        "patterns":["Why do some people choose to just take meds and no therapy, is that safe?"],
+        "responses":["The decision to take prescription medication is one that every individual must make for his or herself. Some people do not feel comfortable divulging information to doctors or others living with mental illness in a therapy environment so they choose to rely solely on medication to combat the disturbances in their lives caused by mental illness. The question of whether it is safe to take prescription medication without partaking in therapy can best be answered by stating that it might be less effective to take medication without the benefit of therapy, but it does not seem to have been proven to be unsafe."]
+    },
+    {
+        "tag":"exercise-benefits4",
+        "patterns":[" Does exercising help control mental illness just by itself? "],
+        "responses":[" By itself, exercise is unlikely to control many types of mental illness. Many health care professionals think that physical exercise has a positive effect on depression, anxiety, and other mental illnesses, though all caution that more clinical research must be done on the subject. There does seem to be a large section of the medical community that believes physical exercise, in conjunction with therapy and prescription medication, is very beneficial to persons living with mental illnesses, as it is for all people."]
+    },
+    {
+        "tag":"race",
+        "patterns":["Are there any ethnic/racial groups that more likely to have mental illnesses?"],
+        "responses":["The types of mental illness and the percentage of the population with each illness is the same across cultures. Cultures vary in how mental illness is stigmatized, beliefs about the cause of mental illness, and response to different treatments. Mental Health professionals from many different fields differ in their opinions on this and related questions. One argument is that people with lower economic and social status (not ethnicity) are possibly more likely to develop mental illness due to the barriers to advancement implicit in those groups' social stature."]
+    },
+    {
+        "tag":"acquire",
+        "patterns":[" How does someone acquire a mental illness?"],
+        "responses":["Scientists are still studying how people become mentally ill, so we do not know as much as we would like about how a person develops a mental disorder. There may be genetic causes or inherited vulnerabilities, prenatal care injuries or difficulties, exposure to toxins, or other unknown sources. Poverty, homelessness, overcrowding, stressful living conditions, frequent exposure to violence, abusive parents or severe marital or relationship problems can contribute to the development of a mental illness."]
+    },
+    {
+        "tag":"chronic",
+        "patterns":["Is depression a side effect of diabetes?"],
+        "responses":["Chronic is defined as, lasting for a long period of time or marked by frequent recurrence or of long duration; continuing. Many, if not most, mental illnesses could be categorized as chronic in that the individual living with a certain mental illness will never get over that illness. But this is not to say that many symptoms of various mental illnesses cannot be largely alleviated through treatment. If treated correctly, many mental illnesses will have a minimal impact on those living with them."]
+    },
+    {
+        "tag":"seizures",
+        "patterns":["Can mental health cause seizures? "],
+        "responses":["Psychogenic nonepileptic seizures (PNES) are sudden, involuntary seizure-like attacks that are similar to epileptic seizures, but have a psychological origin. They can be related to stress, difficult emotions, or psychological distress. Appropriate diagnosis is important, as patients with psychogenic nonepileptic seizures are sometimes misdiagnosed and treated for epilepsy. Different types of psychological therapy that can be used to treat PNES."]
+    },
+    {
+        "tag":"difference",
+        "patterns":["What is the difference between a psychiatrist, a psychologist, and a therapist?"],
+        "responses":["Psychiatrists have a degree in medicine like your family physician, followed by specialized training in the diagnosis and treatment of mental illness, emotional disorders, and behavioral problems. They can prescribe medication to help people with mental health problems. Psychologists have a degree in psychology, which is the study of the mind and behaviours. Therapists and counselors can have a range of backgrounds, such as a master’s degree from a counseling program."]
+    },
+    {
+        "tag":"assist3",
+        "patterns":["Who should I talk to about mental health?"],
+        "responses":["If you’re not in a crisis, a good first step you can take is simply consulting a general practitioner or family doctor. Talking with a doctor can help clarify your options and rule out physical causes for mental health problems. While it might feel difficult at first to talk to your doctor about your thoughts and feelings, this discussion may help you access the counselling services you need."]
+    },
+    {
+        "tag":"difference1",
+        "patterns":[" What’s the difference between psychotherapy and counselling? "],
+        "responses":[" Though the terms counselling and psychotherapy are often used interchangeably, there is a slight and distinctive difference between them. Psychotherapy is often treatment used in response to a diagnosable mental health problem such as depression, bipolar disorder, or attention deficit hyperactivity disorder. It is often in-depth therapy that can be used in conjunction with medication. Counselling tends to be more wellness-oriented, providing increased insight, like how to effectively overcome problems and challenges."]
+    },
+    {
+        "tag":"medication2",
+        "patterns":[" What types of antidepressants can psychiatrists prescribe?"],
+        "responses":["Selective serotonin reuptake inhibitors (SSRIs), like Paxil, Celexa or Lexapro, and Serotonin and norepinephrine reuptake inhibitors (SNRIs), like Cymbalta or Effexor, are antidepressants that are commonly prescribed to treat depression. Psychiatrists can also prescribe tricyclic antidepressants, like Tofranil or Pamelor, Monoamine oxidase inhibitors (MAOIs), like Marplan or Nardil, or other antidepressants like Wellbutrin, a norepinephrine and dopamine reuptake inhibitor (NDRI)."]
+    },
+    {
+        "tag":"medication3",
+        "patterns":["Can therapists prescribe medication?"],
+        "responses":["Psychologists and therapists can provide important counselling services, but aren’t licensed to prescribe medications. Psychiatrists and licensed medical doctors, like general practitioners, can prescribe medications to their patients."]
+    },
+    {
+        "tag":"suicide2",
+        "patterns":[" How do I stop suicidal thoughts?"],
+        "responses":["Keep in mind that things change over time. Your problems are temporary, but suicide is permanent. Taking your own life is never the right solution. No matter how bad your situation may seem or how much pain you may be experiencing right now, there are ways of dealing with these issues. Give yourself time and don’t try to manage suicidal feelings on your own. Professional help and support from loved ones can make a big difference. Numerous organizations and support groups can also help you cope with suicidal feelings."]
+    },
+    {
+        "tag":"difference2",
+        "patterns":[" What’s the difference between psychosis and neurosis?"],
+        "responses":["Neurosis is a disorder that’s characterized by anxiety, depression, or other feelings of unhappiness or distress that are out of proportion to the circumstances of a person’s life. Psychosis, on the other hand, is a serious but treatable medical condition that reflects changes in how the brain functions. A person with psychosis can experience some loss of contact with reality, which is characterized by changes in their way of thinking or behaving."]
+    },
+    {
+        "tag":"difference3",
+        "patterns":["What’s the difference between anxiety and stress?"],
+        "responses":["While the physical sensations of anxiety and stress can be similar, their causes are usually different. Stress is usually caused by external pressures we’re having difficulty coping with. When we’re stressed, we usually know what we’re stressed about, and the symptoms of stress generally resolve themselves once the stressful situation ends. Anxiety, on the other hand, is usually caused by worries or fears about potential threats or troubles, or even anxiety about the anxiety itself."]
+    },
+    {
+        "tag":"difference4",
+        "patterns":[" What’s the difference between sadness and depression? "],
+        "responses":["Sadness is a normal reaction to some of life’s challenges. Feeling sad from time to time is a normal part of being human. If your feelings of sadness resolve themselves on their own over time and don’t impact your life in a big way, you’re probably not dealing with depression. That being said, if you continue to feel blue, it’s important to seek help, as depression doesn’t usually go away on its own. Depression is much more than low mood or sadness. Look for physical signs, such as problems with sleep, appetite, or energy."]
+    },
+    {
+        "tag":"pay",
+        "patterns":["How can I get help paying for my medication?"],
+        "responses":[" Some pharmaceutical companies offer prescription assistance programs to individuals and families with financial needs, while others offer special drug discount cards. These programs typically require a doctor’s consent and proof of your financial status. They may also require that you have either no health insurance or no prescription drug benefit through your health insurance."]
+    },
+    {
+        "tag":"medication4",
+        "patterns":["If I feel better after taking medication, does this mean I am cured and can stop taking it?"],
+        "responses":["It is not uncommon for people to stop taking their medication when they feel their symptoms are under control. Others may choose to stop taking their medication because of its side effects, without realizing that most side effects can be effectively managed. While it may seem reasonable to stop taking the medication, the problem is that most often, the symptoms will return. If you or your child is taking medication, it is very important that you work together with your doctor before making decisions about any changes in your treatment. Another problem with stopping medication, particularly for stopping it abruptly, is that you may develop withdrawal symptoms that can be very unpleasant. If you and your doctor feel a trial off your medicine is a good idea, it is necessary to slowly decrease the dosage of medications so that these symptoms don’t occur. It is important that your doctor and pharmacist work together to make sure your medications are working safely and effectively. You should talk with them about how you are doing and if there are side effects that make you unwilling to continue treatment. They will work with you to develop strategies for minimizing these side effects, or will create a plan for switching to a different treatment that will be a better fit."]
+    },
+    {
+        "tag":"medication5",
+        "patterns":["What should I know before starting a new medication?"],
+        "responses":["The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as: 1. What is the medication supposed to do? 2. When should it begin to take effect, and how will I know when it is effective? 3. How is the medication taken and for how long? 4. What food, drinks, other medicines, and activities should be avoided while taking this medication? 5. What are the side effects and what should be done if they occur? 6. What do I do if a dose is missed? 7. Is there any written information available about this medication? 8. Are there other medications that might be appropriate? If so, why do you prefer the one you have chosen? 9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."]
+    },
+    {
+        "tag":"treatment",
+        "patterns":[" If I become involved in treatment what do I need to know? "],
+        "responses":["Beginning treatment is a big step for individuals and families and can be very overwhelming. It is important to continue involvement in the treatment process as much as possible. Some questions you will need to have answered include: 1. What is known about the cause of this particular illness? 2. Are there other diagnoses where these symptoms are common? 3. Do you normally include a physical or neurological examination? 4. Are there any additional tests or exams that you would recommend at this point? 5. Would you advise an independent opinion from another psychiatrist at this point? 6. What program of treatment is the most helpful with this diagnosis? 7. Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?"]
+    },
+    {
+        "tag":"children1",
+        "patterns":["How can I find a mental health professional right for my child or myself?"],
+        "responses":["Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."]
+    },
+    {
+        "tag":"therapy1",
+        "patterns":["What happens in a therapy session?"],
+        "responses":["Therapy is a supportive and confidential process where you will feel heard and understood. At the beginning of a therapy session, you will most likely be invited to share what’s on your mind and you and your therapist will discuss what’s been going on in your life, challenges you have been facing, and your feelings about it. Your therapist will use their expertise to help you gain a new perspective, learn more about yourself and your situation, recognize patterns of behavior that have become problematic, and develop new skills you can use in your day-to-day life to achieve your goals. Therapy is a collaborative process between you and your therapist; you will make greater progress when you actively participate in the therapeutic process."]
+    },
+    {
+        "tag":"therapy2",
+        "patterns":["How long can I expect to be in therapy?"],
+        "responses":["Depending on your own unique needs, therapy can be short-term (6-12 sessions), for a specific issue or goal, or long-term, to deal with more difficult patterns or your desire for continued self-awareness and personal growth"]
+    },
+    {
+        "tag":"therapy3",
+        "patterns":["What are the known side effects of neurofeedback?"],
+        "responses":["Neurofeedback has been used for over 30 years, with very few reported side effects and is considered safe for all patients. In rare cases, some individuals have reported feeling tired, foggy, or having a slight headache, while other have reported feeling energetic or really happy."]
+    },
+    {
+        "tag":"therapy4",
+        "patterns":[" Are neurofeedback and biofeedback the same thing?"],
+        "responses":["Neurofeedback and biofeedback are often described as the same things. Neurofeedback is in fact a type of biofeedback; as they both are designed to specifically target brainwave patterns."]
+    },
+    {
+        "tag":"alcohol",
+        "patterns":["Can I drink alcohol while taking antidepressants?"],
+        "responses":["Drinking alcohol while taking antidepressants is generally not recommended because both of these substances can make you drowsy, less alert, and uncoordinated. When taken together, those effects are increased. However, since many patients are not willing to give up alcohol completely, it is important to combine alcohol and antidepressants in the safest way possible."]
+    },
+    {
+        "tag":"medication6",
+        "patterns":["I have been taking my antidepressant medication for a while now. I feel great. All of my symptoms seem to be gone. Is it okay for me to stop taking my medication?"],
+        "responses":[" It is not uncommon for people to stop taking their antidepressant medication when they feel their symptoms have become controlled. Others may choose to stop their antidepressant medication because of bothersome side effects despite their mood being better. A person may not realize that most side effects can be effectively managed. While it may seem reasonable to stop taking the medication, the problem is that at least 50% of the time the symptoms of depression and/or anxiety come back. If you are taking an antidepressant, it is very important that you work together with your doctor before making decisions about any changes in your treatment."]
+    },
+    {
+        "tag":"sexual",
+        "patterns":["I heard that medication can cause sexual side effects. Are these effects permanent? Should I stop taking my medicine?"],
+        "responses":["Changes in sexual function may be caused by many things. If you notice any changes in sexual function after starting these medication your doctor can determine whether your medicine may be responsible. Some medications, such as Paxil, Prozac, Zoloft, Celexa and Lexapro, can cause sexual side effects, including lowered sex drive, delay in the time it takes for you to have an orgasm, or make you unable to have an orgasm. Not everyone who takes these medications experiences sexual side effects. These types of side effects will usually occur within the first several months of treatment if they are going to happen, and will continue as long as you take the medication."]
+    },
+    {
+        "tag":"medicine-cost",
+        "patterns":["Why do psychiatric medications cost so much?"],
+        "responses":["First it is important to understand the difference between receiving a “Brand” or “Trade name” product versus a “generic” form of a medication. A “Brand” name medication has a patent that allows the manufacturer exclusive rights to sell the medication for a certain number of years. “Brand” name drugs cost more because the pharmaceutical company discovering the drug is attempting to recover the hundreds of millions of dollars it took to do the research to make sure the drug is safe and effective. Other costs involved with brand-name medications include manufacturing, distributing, and advertising. When the patent time for a brand-name medication runs out other manufacturers are allowed to make and sell “Generic” versions of the same drug. The active ingredient(s) of Generic medications are identical to the “Brand” ingredient(s) though the tablet or capsule may look slightly different in color, shape, etc., and generally is less costly. Check with your practitioner or pharmacist to discuss potential alternatives before starting or stopping medications."]
+    },
+    {
+        "tag":"medication7",
+        "patterns":["I was recently prescribed an antidepressant. The information sheet from the pharmacy said the medication may increase suicidal thoughts. Is this true?"],
+        "responses":["It is true that antidepressants may increase the risk of suicidal thoughts and behavior in children and young adults up to age 24. However, studies did not show an increased risk beyond age 24. Also, studies show that older adults (ages 65 and older) taking antidepressants actually have a decreased risk of suicidal thoughts and behavior. The information sheet that came with the medication may be intimidating but if you know what signs to look for, depression can be safely treated."]
+    },
+    {
+        "tag":"child",
+        "patterns":["When a Child Needs Mental Health Assessment?"],
+        "responses":["Just like adults, children can get mental health assessments that involve a series of observations and tests by professionals. Since it can be hard for very young children to explain what they’re thinking and feeling, the particular screening measures often depend on the child’s age. The doctor will also ask parents, teachers, or other caregivers about what they’ve noticed. A pediatrician can do these evaluations, or you may get referred to another professional who specializes in children’s mental health."]
+    },
+    {
+        "tag":"therapy5",
+        "patterns":["What is Hypnotherapy?","How Does Hypnotherapy Work?"],
+        "responses":["Hypnotherapy is usually considered an aid to psychotherapy (counselling), rather than a treatment in itself. It helps with psychotherapy because the hypnotic state allows people to enter a deep state of relaxation that can better allow them to explore painful thoughts, feelings, and memories they might have hidden from their conscious minds. In addition, hypnosis enables people to perceive some things differently, such as blocking an awareness of pain. Hypnotherapy can be used in two ways, as suggestion therapy or for patient analysis. 1. Suggestion therapy: The hypnotic state makes the person better able to respond to suggestions. Therefore, hypnotherapy can help some people stop certain behaviours, such as smoking or nail-biting. 2. Analysis: This approach was historically used to induce a relaxed and uninhibited state to find suspected unconscious causes of a disorder or symptom, such as a traumatic past event that a person has hidden in their unconscious memory."]
+    },
+    {
+        "tag":"therapy6",
+        "patterns":["What Are the Benefits of Hypnotherapy?"],
+        "responses":["The hypnotic state allows a person to be more open to discussion and suggestion. It can improve the success of other treatments for many conditions, including: 1. Phobias, fears, and anxiety 2. Sleep disorders 3. Depression 4. Stress 5. Post-trauma anxiety 6. Grief and loss It also might be used to help with pain control and to overcome habits, such as smoking or overeating. It also might be helpful for people whose symptoms are severe or who need crisis management."]
+    },
+    {
+        "tag":"therapy7",
+        "patterns":["What Are the Drawbacks/disadvantages of Hypnotherapy?"],
+        "responses":["Hypnotherapy might not be appropriate for a person who has psychotic symptoms, such as hallucinations and delusions, or for someone who is using drugs or alcohol. It should be used for pain control only after a doctor has evaluated the person for any physical disorder that might require medical or surgical treatment. Some therapists use hypnotherapy to recover repressed memories they believe are linked to the person's mental disorder. However, hypnosis also poses a risk of creating false memories -- usually as a result of unintended suggestions by the therapist. For this reason, the use of hypnosis for certain mental disorders remains controversial."]
+    },
+    {
+        "tag":"therapy8",
+        "patterns":["Is Hypnotherapy Dangerous?"],
+        "responses":["Hypnotherapy is not a dangerous procedure. It is not mind control or brainwashing. A therapist cannot make a person do something embarrassing or that the person doesn't want to do. The greatest risk, as discussed above, is that false memories can be created."]
+    },
+    {
+        "tag":"therapy9",
+        "patterns":["Who Performs Hypnotherapy?"],
+        "responses":["Hypnotherapy is performed by a licensed or certified mental health professional who is specially trained in this technique."]
+    },
+    {
+        "tag":"medication8",
+        "patterns":["What is the impact of Vitamins on Mental Health"],
+        "responses":["Various mental health conditions could have adverse effects on your lifestyle. Among them is depression, a condition that is associated with a lack of some vitamins. It is the most common mental health condition. Statistics show that more than 19 million Americans — nearly 8% of the U.S. population — have experienced depression. It affects people of all ages, races, socioeconomic backgrounds, and ethnicities. A diet that includes vitamin B complex helps boost mental health. Vitamin B deficiency could negatively influence your memory function, and cause cognitive impairment and dementia. Vitamin B contributes to the complexity of depressive symptoms. Low levels of folate have been linked to depression. Vitamin supplements such as folic acid (a synthetic form of folate also known as vitamin B9) combined with antidepressants can boost relief in women. Folic acid helps the body make healthy red blood cells."]
+    },
+    {
+        "tag":"journaling",
+        "patterns":["What are the Benefits of Journaling?"],
+        "responses":["Whether you’re dealing with stress from school, burnout from work, an illness, or anxiety, journaling can help in many ways: 1. It can reduce your anxiety. 2. It helps with brooding. 3. It creates awareness. 4. It regulates emotions. 5. It encourages opening up. 6. It can speed up physical healing."]
+    },
+    {
+        "tag":"social",
+        "patterns":["What is the Impact of Social Isolation on Your Mental Health?"],
+        "responses":["Social isolation can affect nearly every aspect of your mental health. Studies show that feelings of isolation can be linked to: 1. Suicidal thoughts and suicide attempts 2. Less restful sleep ‌3. Decreased ability to regulate eating ‌4. More stress, especially in the morning ‌5. Greater difficulty paying attention and doing complex tasks People of all ages are vulnerable to the effects of social isolation. If you experience loneliness as a pre-teen or teenager, for example, you’re more likely to struggle with depression in adulthood. Older adults are vulnerable emotionally and cognitively. Social isolation can cause up to a 40% increase in dementia risk."]
+    },
+    {
+        "tag":"social1",
+        "patterns":[" How to cope up with social isolcation?"],
+        "responses":["No matter how old you are, it’s important to recognize when you struggle with social isolation. Noticing is the first step to developing healthy coping mechanisms. To cope with social isolation, try to: 1. Acknowledge your feelings. Sometimes it seems easier to ignore your feelings when you’re struggling, especially when it feels like you have no one to talk to. Take some time to acknowledge that things are hard. If you need to, reach out to a therapist. 2. Get outside. Being outdoors is beneficial to your mental and physical health. The natural light can help to boost your mood and the vitamin D in sunlight can ease symptoms of depression. 3. Reconnect with your interests. If you find you have more time to yourself, think about what solo hobbies you used to enjoy or always wanted to take up. Pursuing a new hobby can redirect your mind and give you something positive to think about. 4. Check in with people you know. When you’ve been isolated, it’s easy to feel that people are doing fine without you. It’s a common self-fulfilling prophecy brought on by loneliness, and it’s usually not true — unless it causes you to withdraw from others and treat them as though you know they don’t care."]
+    },
+    {
+        "tag":"sports",
+        "patterns":["Are there any Negative Effects of Sports on Mental Health?"],
+        "responses":["While sports provide many benefits, they can have negative effects on the mental health of more advanced athletes, especially elite athletes. Elite athletes play at varsity, regional, national, or professional levels. 1. Stress. While sports relieve stress, sometimes they create it. Parents or coaches may push children too hard. Older athletes may place pressure on themselves to perform well. This leads to burnout, which is when an athlete’s performance worsens despite intense training. 2. Depression. Many high-profile athletes struggle with mental health issues. Researchers say certain factors may increase the risk of depression among athletes. These include injury, retirement from the sport, and performance expectations. It’s also possible that there may be underreporting of depression among athletes."]
+    },
+    {
+        "tag":"workplace",
+        "patterns":["What are those things that Affect Mental Health at Work? "],
+        "responses":["Some things that may affect your mental health in the workplace include: 1. Excessive workload. A heavy workload could cause employee burnout. Burnout, or exhaustion, is a common cause of mental health problems in the workplace. Burnt out employees cannot work efficiently. This can mean losses or lessened profits for the employer. Many companies dedicate a budget to help their employees take care of their mental health. 2. Poor pay. Constant pressure to make more money eventually affects your mental health. When employees are underpaid and overworked, mental conditions like anxiety and depression are more likely to happen. 3. Stigma. Mental health is still a delicate topic for many. Not many people are comfortable speaking up about their personal mental struggles with co-workers.."]
+    },
+    {
+        "tag":"workplace1",
+        "patterns":["How to prevent Mental Health Issues in the Workplace?"],
+        "responses":["When you have a mental health issue related to work, experts recommend asking for help from a professional and other people close to you. Most organizations have an employee assistance program. If you feel you need more help than what’s available through your employer, talk to your doctor. Mental health can be treated through various forms of therapy. Your doctor may prescribe medications or recommend other alternatives like psychotherapy."]
+    },
+    {
+        "tag":"homesickness",
+        "patterns":["How to Deal with Homesickness?"],
+        "responses":[". Know that it’s normal. Being in a new place and missing your home, family, friends, and pets, is completely normal. It means that you have a healthy attachment to your loved ones. It will take a while to adjust to your new surroundings. 2. Attend events or take classes. Some companies or universities organise events for international employees or students, and this may encourage you to learn more about your new place of residence, and meet new people. 3. Be active. Taking part in sports and physical activities can help you take your mind off your homesickness and boost your mood. Team sports can also help you make new social connections and find social support. 4. Make friends with locals. It may help you adjust more easily to your new place if you get to know some locals, especially if you’re from somewhere that’s very different. 5. Gratitude journal. Journaling can help with your feelings of homesickness. Every night, try writing down three things you’re grateful for and three things you’re looking forward to the next day."]
+    },
+    {
+        "tag":"yoga",
+        "patterns":["How to Use Yoga to Improve Your Mental Health?"],
+        "responses":["The best way to learn yoga is with a qualified teacher, either in a private session or in a group. A yoga teacher can correct your poses and show you how to modify them if necessary. You can use blocks, straps, and other items to make some poses easier. You can even do yoga in a chair instead of on the floor. It's also possible to learn yoga online or from a book or DVD. But the best way to avoid injury is to take an in-person yoga class. Once you have the basics down, you can use books and videos to help you practice. You will benefit more from yoga if you do it at home between classes, and online classes can keep your home practice interesting. If you are comfortable doing yoga at home, you can practice when you experience extra stress, sleeplessness, or other challenges."]
+    },
+    {
+        "tag":"music",
+        "patterns":["What are the benefits of listening to Music?"],
+        "responses":["Whether you’re on edge or need a boost, even just one song can bring you back to a more even and healthy place. When it comes to your mental health, music can:‌‌ 1. Help you rest better. A study involving students found that listening to relaxing classical music at bedtime improved sleep quality. This activity was also associated with decreased signs of depression. ‌ 2. Lift your mood. Research shows that listening to happier music can make you feel happier, especially if you try to lift your mood while listening. There’s also evidence that formal music therapy can help with depression when used alongside other therapies. 3. Reduce stress. If you’re feeling anxious or stressed, calming music can help to settle your mind. Several studies have shown that when people undergoing surgery hear calming music, they have lower blood pressure and need less pain medication than those who don’t listen to soothing music."]
+    },
+    {
+        "tag":"spirituality",
+        "patterns":["What is the Impact of Spirituality on Mental Health?"],
+        "responses":["Spirituality influences many decisions that people make. It encourages people to have better relationships with themselves, others, and the unknown. Spirituality can help you deal with stress by giving you a sense of peace, purpose, and forgiveness. It often becomes more important in times of emotional stress or illness. Many people with a mental illness get a sense of hope by talking with a religious or spiritual leader. Some mental illnesses can be seen as times when people question their value or purpose in a way that leaves them feeling pessimistic. It can be extremely helpful to include spirituality in the treatment of mental health difficulties. ‌"]
+    },
+    {
+        "tag":"anger",
+        "patterns":["What Are the Dangers of Suppressed Anger?"],
+        "responses":["Suppressed, unexpressed anger can be an underlying cause of anxiety and depression. Anger that is not appropriately expressed can disrupt relationships, affect thinking and behavior patterns, and create a variety of physical problems. Chronic (long-term) anger has been linked to health issues such as high blood pressure, heart problems, headaches, skin disorders, and digestive problems. In addition, poorly managed anger can be linked to problems such as alcohol and substance abuse, crime, emotional and physical abuse, and other violent behavior."]
+    },
+    {
+        "tag":"anger-management",
+        "patterns":["How can i manage my anger", " What Steps Can I Take to Help Manage My Anger?"],
+        "responses":["1. When you start feeling angry, try deep breathing, positive self-talk, or stopping your angry thoughts. 2. Avoid alcohol or illicit drugs that can make you more likely to act on angry feelings impulsively. 3. Although expressing anger is better than keeping it in, anger should be expressed in an appropriate way. 4. Seek out the support of others. Talk through your feelings and try to work on changing your behaviors. 5. Try to gain a different perspective by putting yourself in another's place. 6. Learn how to laugh at yourself and see humor in situations. 7. Practice good listening skills. Listening can help improve communication and can facilitate trusting feelings between people. This trust can help you deal with potentially hostile emotions."]
+    },
+    {
+        "tag":"depression",
+        "patterns":["Do I Have Clinical Depression?"],
+        "responses":["Are you wondering if you have clinical depression? This quiz may help you tell if you're at risk. Don't hesitate to ask for help; depression can be treated. 1. Have you been in a depressed mood most of the day, nearly every day for at least two weeks? 2. Have you lost interest or pleasure in most daily activities, nearly every day for at least two weeks? 3. Have you experienced a significant weight change (at least five pounds) either loss or gain recently? 4. Has your appetite changed (increased or decreased) for an extended period? 5. Have you suffered from insomnia or hypersomnia (oversleeping), nearly every day for at least two weeks? 6. Have you felt tired or experienced a loss of energy during the day, nearly every day for at least two weeks? 7. Have you had guilty feelings or feelings of worthlessness nearly every day for at least two weeks? 8. Have you had difficulty thinking, concentrating, or making decisions nearly every day? 9. Have you had any thoughts of death or any thoughts of suicide without any specific plan? a) Did you mark yes for either question 1 or 2? b) Did you mark yes four or more times in questions 3-9? If you responded yes to both (a) and (b), you may be suffering from an episode of major depression. If your symptoms are disabling and severe over a few weeks -- and especially if you are having suicidal thoughts -- you should seek professional treatment."]
     }
-
     ]
 }
