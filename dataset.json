@@ -978,6 +978,257 @@
         "tag":"depression",
         "patterns":["Do I Have Clinical Depression?"],
         "responses":["Are you wondering if you have clinical depression? This quiz may help you tell if you're at risk. Don't hesitate to ask for help; depression can be treated. 1. Have you been in a depressed mood most of the day, nearly every day for at least two weeks? 2. Have you lost interest or pleasure in most daily activities, nearly every day for at least two weeks? 3. Have you experienced a significant weight change (at least five pounds) either loss or gain recently? 4. Has your appetite changed (increased or decreased) for an extended period? 5. Have you suffered from insomnia or hypersomnia (oversleeping), nearly every day for at least two weeks? 6. Have you felt tired or experienced a loss of energy during the day, nearly every day for at least two weeks? 7. Have you had guilty feelings or feelings of worthlessness nearly every day for at least two weeks? 8. Have you had difficulty thinking, concentrating, or making decisions nearly every day? 9. Have you had any thoughts of death or any thoughts of suicide without any specific plan? a) Did you mark yes for either question 1 or 2? b) Did you mark yes four or more times in questions 3-9? If you responded yes to both (a) and (b), you may be suffering from an episode of major depression. If your symptoms are disabling and severe over a few weeks -- and especially if you are having suicidal thoughts -- you should seek professional treatment."]
+    },
+    {
+        "tag":"suicide3",
+        "patterns":["If I’m feeling suicidal, what should I do?"],
+        "responses":["Depressive episodes, as they’re called, can raise the chances of suicidal thoughts. They’re an emergency, so tell your doctor immediately or call 988 or 911 if this happens to you."]
+    },
+    {
+        "tag":"behavior-health",
+        "patterns":["Why is behavioral health important?"],
+        "responses":["Behavioral health is important because it looks at a larger picture that includes mental health. It considers how a single behavior can be both a cause and effect, with consequences across multiple health domains."]
+    },
+    {
+        "tag":"behavior-health1",
+        "patterns":["What are the similarities between Mental and behavioral health? "],
+        "responses":["Mental health is a component of behavioral health. Mental health is often the “why” behind certain behaviors, or the lack thereof. A 2018 study, for example, found that positive mental health features like high self-esteem predicted more beneficial behavioral outcomes among low-income inner-city youth. But behavioral health can also overlap with mental health. For example, depriving yourself of sleep is a behavior that has both physical and psychological consequences. Research has shown that inadequate sleep significantly increases the odds of experiencing regular mental distress. From a behavioral perspective, however, sleep deprivation has a larger wellness effect. It has also been associated with obesity, diabetes, and cardiovascular disease."]
+    },
+    {
+        "tag":"eating-habits",
+        "patterns":["How to change my eating habits for better mental health?"],
+        "responses":["As research shows us more about how the foods we eat can affect our bodies, we gain more tools in our nutritional toolbox that we can use to help improve our overall health and mental well-being on a daily basis. Whole foods provide many nutrients that ultra-processed foods lack, which in turn supports all of our body’s functions in order to promote health and wellness. Start simple by adding a piece of fruit as a snack or by adding fresh or frozen vegetables into your meals. Take steps to decrease your intake of ultra-processed foods over time and limit them to only occasional use. Examples of ultra-processed foods would be items such as soft drinks, hot dogs, packaged cookies, or sweetened breakfast cereals"]
+    },
+    {
+        "tag":"eating-diet",
+        "patterns":["What foods should i eat to better my mental health?"],
+        "responses":["One of the keys to a healthy body is making the right food choices. Eating a diet rich in fruits, vegetables, whole grains, legumes, low-fat dairy foods, and lean meats, poultry, and fish can go a long way toward lowering your risk of physical health problems.","Did you know that nutritious foods can also protect your mental health? Although no single nutrient or eating plan can cure depression, good overall nutrition is essential for your mental well-being. Eating foods that are rich in essential vitamins, minerals, complex carbohydrates, protein, and fatty acids is key to keeping your brain in good working order"]
+    },
+    {
+        "tag":"diet1",
+        "patterns":["What are the essentisl nutrients?"],
+        "responses":["Your brain, like other organs, responds to what you eat and drink. It needs several vitamins, minerals, and other nutrients to stay healthy. If you deprive your brain of these essential nutrients, it can’t function properly. This can raise your risk of mental health problems."]
+    },
+    {
+        "tag":"diet2",
+        "patterns":["What are the vitamins and minerals needed?"],
+        "responses":["Vitamins and minerals play a key role in your brain health. Vitamins that are particularly important for your brain include:vitamin C,vitamin D,B vitamins. To function properly, your brain also depends on minerals, such as: magnesium, selenium and zinc"]
+    },
+    {
+        "tag":"diet3",
+        "patterns":["What are complex carbohydrates"],
+        "responses":["Carbohydrates serve a few purposes in nourishing your brain. At the most basic level, your brain depends on glucose for energy. This simple sugar is derived from carbohydrates in your diet. Carbohydrates also help stimulate your brain’s production of the feel-good neurotransmitter serotonin. Rather than snacking on sweets and processed grains, choose complex carbohydrates, such as those found in:fruits and vegetables,whole-grain foods,legumes.Your body converts these carbohydrates into glucose more slowly than simple carbohydrates, which are found in processed sugars and grains. As a result, complex carbohydrates provide a more stable and consistent flow of fuel to your brain."]
+    },
+    {
+        "tag":"diet4",
+        "patterns":["What amino acids are needed?"],
+        "responses":["Amino acids are the building blocks of protein. They’re essential to your brain’s production of neurotransmitters. These are a type of chemical messenger that carry signals between your nerve cells.For example, serotonin is a neurotransmitter that’s responsible for feelings of contentment. It’s made from the amino acid tryptophan. Dopamine is a neurotransmitter that helps you to feel motivated. It’s derived from the amino acid phenylalanine. Your body absorbs these amino acids from foods in your diet."]
+    },
+    {
+        "tag":"diet5",
+        "patterns":["What are fatty acids and are they needed?"],
+        "responses":["Fatty acids are also critical to your brain health. A large part of your brain is made up of fat, including omega-3 and omega-6 fatty acids. Your body can’t make these essential fatty acids on its own. Instead, it absorbs them from foods you eat. It’s best to get an equal balance of omega-3 and omega-6 fatty acids in your diet. Unfortunately, the typical Western diet contains excessive amounts of omega-6 fatty acids and insufficient amounts of omega-3 fatty acids."]
+    },
+    {
+        "tag":"diet6",
+        "patterns":["Do i need to hydrate too?"],
+        "responses":["One final important nutrient for your brain is water. It makes up the majority of your brain mass. Even mild dehydration can lead to mental health symptoms, such as irritability and loss of concentration."]
+    },
+    {
+        "tag":"diet7",
+        "patterns":["What foods am i to eat?"],
+        "responses":["To help your brain function properly, eat a variety of foods that are rich in essential nutrients, including: vitamin C: citrus fruits, leafy green vegetables, and other fruits and vegetables, vitamin D: salmon, cod, shrimp, eggs, and fortified milk, juice, and cereal products, B vitamins: red meat, fish, eggs, dairy products, whole grains, and leafy green vegetables, magnesium, selenium, and zinc: nuts, seeds, whole grains, green vegetables, and fish, complex carbohydrates: whole grain breads and cereals, brown rice, quinoa, millet, legumes, and starchy vegetables, such potatoes, corn, peas, and winter squash,tryptophan: lean red meat, poultry, eggs, and beans, phenylalanine: lean red meat, chicken, eggs, dairy products, soybeans, and seeds, omega-3 fatty acids: salmon, trout, tuna, beans, walnuts, broccoli, cauliflower, spinach, cantaloupe, chia and hemp seeds, and canola and flax seed oil,omega-6 fatty acids:poultry, eggs, grains, and vegetable oil."]
+    },
+    {
+        "tag":"diet8",
+        "patterns":["What foods am i to avoid"],
+        "responses":["Try to avoid or limit these foods and beverages:caffeinated drinks, such as tea, coffee, and soft drinks, alcoholic drinks, sugary foods, deep-fried foods, refined and processed foods. Many refined and processed foods, sugary foods, and deep-fried foods are high in calories and low in brain-healthy nutrients. Eating too many of them can raise your risk of physical and mental health problems."]
+    },
+    {
+        "tag":"diet9",
+        "patterns":["Why is eat important to have a proper diet?"],
+        "responses":["Eating healthy is important to not only your physical health, but your mental well-being too. Incorporating a wide variety of fruits, vegetables, whole grains, low-fat dairy foods, and lean meats, poultry, and fish into your diet can help you stay healthy and energized. Along with exercising regularly and getting enough sleep, eating a well-balanced diet can do wonders for your mental well-being."]
+    },
+    {
+        "tag":"diet10",
+        "patterns":["Can you generate/make a meal plan based on the recommended foods?"],
+        "responses":["Sure! Just follow the diet plan below: Day1: Breakfast: Oatmeal with berries and nuts, Lunch: Tuna salad sandwich on whole-wheat bread with a side of green salad, Dinner: Grilled salmon with roasted vegetables Day 2: Breakfast: Scrambled eggs with whole-wheat toast and avocado, Lunch: Leftover grilled salmon with a side of quinoa,  Dinner: Chicken stir-fry with brown rice  Day 3:Breakfast: Smoothie made with spinach, banana, yogurt, and protein powder, Breakfast: Smoothie made with spinach, banana, yogurt, and protein powder,Lunch: Lentil soup with a side of whole-grain crackers,  Dinner: Baked tofu with roasted sweet potatoes and broccoli  Day 4: Breakfast: Whole-wheat pancakes with berries and maple syrup, Lunch: Turkey sandwich on whole-wheat bread with a side of fruit salad, Dinner: Baked cod with roasted carrots and Brussels sprouts  Day 5: Breakfast: Greek yogurt with granola and honey, Lunch: Salad with grilled chicken, mixed greens, vegetables, and a vinaigrette dressing, Dinner: Veggie burger on a whole-wheat bun with sweet potato fries Day 6: Breakfast: Overnight oats with berries and nuts, Lunch: Leftover veggie burger with a side of fruit salad, Dinner: Shrimp scampi with whole-wheat pasta  Day 7: Breakfast: Whole-wheat waffles with fruit and whipped cream, Lunch: Leftover shrimp scampi with a side of steamed vegetables, Dinner: Homemade pizza with whole-wheat crust, vegetables, and lean protein.", 
+        "This meal plan provides a variety of nutrient-rich foods that can help to support brain function. It is important to note that this is just a sample plan, and you may need to adjust it based on your individual dietary needs and preferences."]
+    },
+    {
+        "tag":"depression1",
+        "patterns":["What About Depression Later In Life?"],
+        "responses":["For older adults who experience depression for the first time later in life, other factors, such as changes in the brain or body, may be at play. For example, older adults may suffer from restricted blood flow, a condition called ischemia. Over time, blood vessels become less flexible. They may harden and prevent blood from flowing normally to the body’s organs, including the brain. If this occurs, an older adult with no family or personal history of depression may develop what some doctors call “vascular depression.” Those with vascular depression also may be at risk for a coexisting cardiovascular illness, such as heart disease or a stroke."]
+    },
+    {
+        "tag":"depression2",
+        "patterns":["What Efforts Are Underway To Improve Treatment Of Depression? "],
+        "responses":["Researchers are looking for ways to better understand, diagnose and treat depression among all groups of people. Studying strategies to personalize care for depression, such as identifying characteristics of the person that predict which treatments are more likely to work, is an important goal."]
+    },
+    {
+        "tag":"depression3",
+        "patterns":["How Can Treatment-Resistant Depression Be Treated?"],
+        "responses":["Treatment of resistant depression has most commonly been treated with electroconvulsive therapy (ECT). ECT has been modified to avoid the pain previously associated with it and is the most effective and quick-acting treatment for resistant depression. The downside is that it works by inducing brain seizures and can impair memory. Its therapeutic benefits can also fade over time. New methods of brain stimulation also offer the possibility of relief. These technologies exploit the fact that the brain is an electrical organ: it responds to electrical and magnetic stimulation to modulate brain circuits and change brain activity."]
+    },
+    {
+        "tag":"depression4",
+        "patterns":["What are the risks of untreated depression?"],
+        "responses":["Untreated depression can increase risk of depressive episodes becoming more frequent, prolonged and/or severe over time and increase risk of suicide. It can significantly interfere with one’s functioning at work, school, and/or in interpersonal relationships. Depression can also increase risk of alcohol and/or substance use disorders. Additionally, depression can worsen the course and outcome of chronic medical conditions, such as diabetes, cardiovascular disease, and others."]
+    },
+    {
+        "tag":"depression5",
+        "patterns":[" What are other psychiatric conditions that can co-exist with depression? "],
+        "responses":["Anxiety disorders and substance use disorders are some of the psychiatric conditions commonly found co-existing with major depressive disorder. Other psychiatric conditions too, such as post traumatic stress disorder (PTSD), eating disorders, can co-occur with depression."]
+    },
+    {
+        "tag":"self-management",
+        "patterns":["What is self-management?"],
+        "responses":["Self-management courses can help you better understand your mental health condition and consider what helps you stay well. They can also help you plan for times when you’re unwell or in a crisis. They’re often designed and/or delivered by people with lived experience of mental ill-health. Courses usually include: 1. information about your condition and ways to treat it 2. ways to recognise early warning signs of a relapse 3. coping skills to deal with your symptoms They can also help you feel more assertive when asking mental health services for the support you need. Courses are free and provided by the NHS as well as other groups and organisations. Some are in-person, while others are online - either through live video calls or online videos you can work through at your own pace. As well as courses, self-management can include webinars, health and wellbeing plans you can complete yourself, or wellness recovery action plans (WRAPS)."]
+    },
+    {
+        "tag":"self-management1",
+        "patterns":["Is self-management right for me?"],
+        "responses":["Courses can cover challenging topics, so it might not be right for you if you’re unwell or have recently been hospitalised for your mental health condition. You also have to be able to manage being in a group, often for several hours at a time."]
+    },
+    {
+        "tag":"self-management-courses",
+        "patterns":["How do self-management courses work? "],
+        "responses":["Self-management courses are based on the principle that you know what works best for you – better than anyone else. During a course, you'll typically learn to: 1. recognise what triggers a relapse in your mental health condition 2. spot the early warning signs of a relapse 3. identify what, if anything, can prevent a relapse 4. figure out which coping strategies work best for you 5. tap into other sources of support like local peer support groups 6. build coping strategies into your life 7. make an action plan 7. draw up an advance decision and/or advance statement setting out how you'd like to be treated if you ever lack the mental capacity to make decisions about treatment in the future"]
+    },
+    {
+        "tag":"self-management-courses1",
+        "patterns":["How can I find a self-management course?"],
+        "responses":["Ask your GP or other health worker involved in your care about self-management courses on the NHS, or search online to find out what’s available in your area. You may need a referral or be able to refer yourself. Other organisations also run self-management courses, such as: 1. Self Management UK runs free courses that look at the challenges that can come with a mental health condition and ways to deal with them. 2. Bipolar UK has a series of free self-management webinars that can help you understand bipolar disorder, learn different approaches to managing it, identify your triggers, and more. 3. If you live in Scotland, Bipolar Scotland runs a self-management course that teaches you how to recognise your early warning signs and take action to prevent your mood from escalating to severe depression or mania."]
+    },
+    {
+        "tag":"anxiety6",
+        "patterns":["Does generalized anxiety disorder run in families?"],
+        "responses":["Having a family member with GAD appears to heighten one’s risk slightly for developing it. The family influence appears to be related to both genetic and environmental sources. There may be, for instance, a genetic predisposition for a person to be at greater risk for having generalized anxiety disorder, but it’s not something activated in everyone who has the predisposition."]
+    },
+    {
+        "tag":"anxiety7",
+        "patterns":[" Where else can I go to learn more about anxiety and mood disorders?"],
+        "responses":["1. Anxiety B.C. www.anxietyBC.com 2. Anxiety Disorders Association of Canada www.anxietycanada.ca 3. Anxiety Disorders Association of Ontario www.anxietydisordersontario.ca 4. MAC Anxiety Research Centre (McMaster University) www.macanxiety.com 5. Social Phobia/Social Anxiety Association www.socialphobia.org 6. The Ontario Obsessive Compulsive Disorder Network www.ocdontario.org 7. The Panic Center www.paniccenter.net"]
+    },
+    {
+        "tag":"ptsd",
+        "patterns":["What Is Post-Traumatic Stress Disorder?"],
+        "responses":["Post-Traumatic Stress Disorder (PTSD) is an anxiety disorder that can develop after exposure to a terrifying event or ordeal in which grave physical harm occurred or was threatened. After traumatic events, such as death, an earthquake, war, car accidents, floods or fires, it is not uncommon for people to experience feelings of heightened fear, worry, sadness or anger. If the emotions persist, however, or become severe, or the person gets triggered into reliving the event in their daily life, this can affect the person’s ability to function and may be a sign of PTSD."]
+    },
+    {
+        "tag":"stress",
+        "patterns":["Are There Coping Factors To Help Deal Effectively With Stress?"],
+        "responses":["In their 20 years of treating and studying trauma survivors, Drs. Dennis Charney and Steven Southwick have identified ten common practices in people who have shown resilience in the face of extreme stress: 1. Maintaining an optimistic but realistic outlook 2. Facing fear (ability to confront one’s fears) 3. Reliance upon own inner, moral compass 4. Turning to religious or spiritual practices 5. Seeking and accepting social support 6. Imitation of sturdy role models 7. Staying physically fit 8. Staying mentally sharp 9. Cognitive and emotional flexibility (finding a way to accept that which cannot be changed) 10. Looking for meaning and opportunity in the midst of adversity"]
+    },
+    {
+        "tag":"OCD",
+        "patterns":["What is OCD?", "How to treat OCD?"],
+        "responses":["There’s no cure for OCD. But you may be able to manage how your symptoms affect your life through medicine, therapy, or a combination of treatments. Treatments include: 1. Psychotherapy. Cognitive behavioral therapy (CBT) can help change your thinking patterns. In a form called exposure and response prevention, your doctor will put you in a situation designed to create anxiety or set off compulsions. You’ll learn to lessen and then stop your OCD thoughts or actions. 2. Relaxation. Simple things like meditation, yoga, and massage can help with stressful OCD symptoms. 3 .Medication. Psychiatric drugs called selective serotonin reuptake inhibitors help many people control obsessions and compulsions. They might take 2 to 4 months to start working. Common ones include citalopram (Celexa), clomipramine (Anafranil), escitalopram (Lexapro), fluoxetine (Prozac), fluvoxamine, paroxetine (Paxil), and sertraline (Zoloft). If you still have symptoms, your doctor might give you antipsychotic drugs like aripiprazole (Abilify) or risperidone (Risperdal). 4. Neuromodulation. In rare cases, when therapy and medication aren’t making enough of a difference, your doctor might talk to you about devices that change the electrical activity in a certain area of your brain. One kind, transcranial magnetic stimulation, is FDA-approved for OCD treatment. It uses magnetic fields to stimulate nerve cells. A more complicated procedure, deep brain stimulation, uses electrodes that are implanted in your head."]
+    },
+    {
+        "tag":"drugs",
+        "patterns":["What is the evidence on vaping?"],
+        "responses":["Though less harmful than smoking cigarettes, vaping still carries potential harms. There is a small exposure to nicotine and possible carcinogens in the vapour. (A carcinogen is a substance that has the potential to cause cancer). Some evidence suggests that young people may be unaware the vaping liquid often contains nicotine. E-cigarettes are not controlled and the nicotine content of vaping liquids varies significantly among brands. Other chemicals, flavourings, and heavy metals present in vaping liquids, have not as yet been well studied. Long-term health risks from vaping are thus undetermined. More research is needed in these areas. Marketing strategies for vaping products, often on social media, are designed to appeal to young people. The range of flavours available, especially those that are fruity and sweet, and the look and feel of vaping devices attract youth. Young people can see vaping as fun and a way to socialize with friends and 'smoke' in a less harmful way."]
+    },
+    {
+        "tag":"substance",
+        "patterns":["When is substance use a problem? Where can I go for help?"],
+        "responses":[" Each person has a different relationship with substances like alcohol and other drugs, and people use substances for different reasons. What’s beneficial for some may cause problems for others, or for the same person in different situations. If you or someone you care about needs more help, contact the Alcohol and Drug Information Referral Service to find support in your area. To get help anywhere in BC, call 1-800-663-1441. In Greater Vancouver, call 604-660-9382."]
+    },
+    {
+        "tag":"drug-abuse",
+        "patterns":["How can I find help for an alcohol or drug use problem?"],
+        "responses":["Seeking to make changes in the way you use substances like alcohol or other drugs? This can be an important step! One way to get help is to talk to a doctor you trust and feel comfortable confiding in. If you aren’t comfortable talking in person, you can also get advice from a registered nurse (along with advice on programs or services in your area) by calling HealthLink BC at 8-1-1. Since some drugs are illegal, many people worry about what might happen if they talk about drug use. It’s important to know that in most cases, doctors have to protect your privacy—it’s the law. In BC, the Alcohol and Drug Information Referral Service can help you find information on treatment options, support groups and other resources throughout the province. It’s free, confidential, and available 24/7. Call the Alcohol and Drug Information Referral Service at 1-800-663-1441 or 604-660-9382 in the Lower Mainland."]
+    },
+    {
+        "tag":"alcohol-abuse",
+        "patterns":["How do I know if I’m drinking too much?"],
+        "responses":["Sorting out if you are drinking too much can be complicated. You are unique and your relationship with alcohol is unique. No one has the same combination of life experiences and influences that you do. So even though you and your friend may choose to drink, how and why you use alcohol may be different. Whenever you decide to drink alcohol, it is helpful to know what steps you can take to ensure that your drinking behaviour is the most rewarding and least harmful possible. The following are some useful guidelines to consider. 1. Managing how much you drink on a given occasion helps decrease risky behaviours. 2. Drink slowly and alternate between non-alcoholic and alcoholic beverages. 3. Drinking in moderation helps to reduce harms to ourselves and others over time. 4. Keep less alcohol at home and set limits on how much you are going to drink each week, avoiding drinking on some days. 5. If going to a bar, stay with a group and choose an establishment that is well lit and near safe transportation options."]
+    },
+    {
+        "tag":"food-abuse",
+        "patterns":["How do I know if I have an unhealthy relationship with food? "],
+        "responses":["To understand what an unhealthy relationship with food looks like, it can be helpful to first have an idea of what a healthy one looks like. A healthy relationship with food can take some work and conscious effort, but it is well worth the work because it allows us to have a flexible, healthy, and balanced relationship with our eating habits and food in general. What are some signs of a healthy relationship with food: 1. Moving away from dieting and strict rules around food and eating 2. Being aware of what your body needs and its natural hunger cues 3. Focusing on nutrition over calories"]
+    },
+    {
+        "tag":"past-difficulties",
+        "patterns":["Do past or current difficulties in life mean I’ll develop a mental health condition?"],
+        "responses":[" No. Many people experience major stress in life, including poverty, unemployment, trauma, abuse, family difficulties, or chronic health problems. Experiencing these stressful situations does not mean you will definitely develop a mental health condition. But if you do experience serious, stressful situations and develop a mental health condition, know that it is not your fault. You can get help and treatment for mental health conditions. Learning ways to manage stress and reaching out for help when you need it can help you protect your mental health."]
+    }, 
+    {
+        "tag":"drug1",
+        "patterns":["How does smoking, drinking alcohol, or misusing drugs affect mental health?"],
+        "responses":["The chemicals in tobacco and alcohol can change the chemicals in your brain, making you more likely to feel depressed or anxious. People with mental health conditions are also more likely to smoke and drink alcohol. Using illegal drugs, or misusing prescription drugs, is also linked to mental health conditions. Researchers are not sure whether drugs can cause mental health conditions, whether mental health conditions cause addiction, or whether both are linked to another health problem. People who have experienced trauma, whether physical or emotional (or both), are more likely to misuse drugs and alcohol."]
+    },
+    {
+        "tag":"age",
+        "patterns":["How does aging affect my mental health?"],
+        "responses":["As you age, your body and brain change. These changes can affect your physical and mental health. Older women may face more stressful living or financial situations than men do, because women live longer on average. They may also have spent more time staying home to raise children or care for loved ones instead of working outside of the home. In the years leading up to menopause (perimenopause), women may experience shifts in mood because of hormone changes. They may also experience hot flashes, problems sleeping, and other symptoms that can make it harder to deal with stress or other life changes."]
+    },
+    {
+        "tag":"trauma1",
+        "patterns":["How do traumatic or negative childhood events affect mental health?"],
+        "responses":["Two out of every 3 women have experienced at least one serious traumatic or negative event during childhood, increasing their risk of adult health problems, including mental health conditions. 1. Traumatic events can include physical or sexual abuse, neglect, bullying, neighbourhood violence, natural disasters, terrorism, and war. 2. Negative events during childhood can include abuse (physical, emotional, verbal, or sexual), neglect, or a problem with an adult in the home, such as seeing domestic violence or having a caregiver go to prison. The more negative childhood events you have experienced, the higher your risk of a serious health problem as an adult. Women are more likely than men to experience certain types of trauma, such as sexual abuse or assault, and are at higher risk of developing a mental health condition."]
+    },
+    {
+        "tag":"women",
+        "patterns":["Why is women’s mental health important?"],
+        "responses":["Mental disorders can affect women and men differently. Some disorders are more common in women, such as depression, anxiety, and eating disorders. There are also certain disorders that are unique to women. For example, some women experience symptoms of depression at times of hormone change, such as during or after pregnancy (perinatal depression), around the time of their period (premenstrual dysphoric disorder), and during menopause (perimenopause-related depression)."]
+    },
+    {
+        "tag":"women1",
+        "patterns":["What causes depression in women?"],
+        "responses":["Depression is a complex mental health condition that affects millions of people worldwide. Women are more likely than men to experience depression, with one in five women experiencing a depressive episode in their lifetime. There are many possible causes of depression, and it is often caused by a combination of factors."]
+    },
+    {
+        "tag":"women1",
+        "patterns":["What are these factors in women?"],
+        "responses":["There are biological factors, psychological factors, social factors, and other factors."]
+    },
+    {
+        "tag":"women2",
+        "patterns":["What are the biological factors in women?"],
+        "responses":["Genetics: Depression can run in families, and having a family history of depression increases your risk of developing the condition.Hormones: Fluctuations in hormones, such as those that occur during pregnancy, childbirth, and menopause, can also trigger depression in some women.Brain chemistry: Depression is thought to be caused by imbalances in certain chemicals in the brain, such as serotonin, norepinephrine, and dopamine."]
+    },
+    {
+        "tag":"women3",
+        "patterns":["What are the psychological factors in women?"],
+        "responses":["Stress: Chronic or severe stress can lead to depression.Trauma: Experiencing a traumatic event, such as abuse, assault, or natural disaster, can increase your risk of developing depression.Negative thinking patterns: People with depression often have negative thoughts about themselves, the world, and the future. Low self-esteem: Low self-esteem can make it difficult to cope with stress and adversity, and it can also contribute to feelings of depression."]
+    },
+    {
+        "tag":"women4",
+        "patterns":["What are the social factors in women?"],
+        "responses":["Loneliness and isolation: Social isolation and loneliness can increase your risk of developing depression.Relationship problems: Relationship problems, such as conflict, abuse, or divorce, can also trigger depression.Poverty: Poverty can lead to stress, anxiety, and hopelessness, all of which can contribute to depression."]
+    },
+    {
+        "tag":"women5",
+        "patterns":["What are those other factors in women?"],
+        "responses":["Medical conditions: Certain medical conditions, such as cancer, heart disease, and chronic pain, can increase your risk of developing depression.Substance use: Substance use, such as alcohol and drug abuse, can also increase your risk of developing depression."]
+    },
+    {
+        "tag":"men",
+        "patterns":["What are the causes of depression in men?"],
+        "responses":["it's the same as that of women but in terms of hormones there are those that occur during puberty and aging, can also trigger depression in some men."]
+    },
+    {
+        "tag":"depression6",
+        "patterns":["What are types of depression?"],
+        "responses":["Major Depressive Disorder (MDD) is the most common type of depression. It is characterized by a persistent feeling of sadness, loss of interest, and changes in appetite, sleep, and energy levels.Persistent Depressive Disorder (PDD), also known as dysthymia, is a chronic form of depression that lasts for at least two years. The symptoms of PDD are less severe than those of MDD, but they can still be disabling.Bipolar Disorder is a mental health condition that causes extreme mood swings. People with bipolar disorder experience periods of mania (high energy, irritability, and decreased need for sleep) and depression.Seasonal Affective Disorder (SAD) is a type of depression that occurs during the winter months, when there is less sunlight. Symptoms of SAD include sadness, fatigue, and changes in appetite and sleep.Peripartum Depression is a type of depression that occurs during pregnancy or after childbirth. Symptoms of peripartum depression include sadness, anxiety, and irritabilityPsychotic Depression is a type of depression that occurs with psychosis, which is a loss of contact with reality. Symptoms of psychotic depression include delusions (false beliefs) and hallucinations (hearing or seeing things that aren't there).Atypical Depression is a type of depression characterized by mood reactivity, hypersomnia, and leaden paralysis. Mood reactivity is the tendency to experience changes in mood that are triggered by external events. Hypersomnia is excessive sleep. Leaden paralysis is a feeling of heaviness and fatigue in the limbs."]
+    },
+    {
+        "tag":"treatment1",
+        "patterns":["What therapy can treat SAD?"],
+        "responses":["Light therapy: Light therapy is a treatment for SAD that involves exposure to bright light."]
+    },
+    {
+        "tag":"treatment2",
+        "patterns":["What therapy can be used to treat peripartum depression?"],
+        "responses":["Hormone therapy: Hormone therapy may be used to treat peripartum depression."]
+    },
+    {
+        "tag":"treatment3",
+        "patterns":["What is Electroconvulsive therapy(ECT)?", "What does ECT treat?"],
+        "responses":["Electroconvulsive therapy (ECT): ECT is a treatment for severe depression that involves passing an electrical current through the brain.", "Electroconvulsive therapy (ECT), also known as shock therapy, is a medical procedure that involves passing an electric current through the brain to intentionally trigger a brief seizure. It is a safe and effective treatment for severe depression that has not responded to other treatments, such as medication and psychotherapy.Electroconvulsive therapy (ECT), also known as shock therapy, is a medical procedure that involves passing an electric current through the brain to intentionally trigger a brief seizure. It is a safe and effective treatment for severe depression that has not responded to other treatments, such as medication and psychotherapy.Electroconvulsive therapy (ECT) medical procedureOpens in a new window pt.slideshare.net. Electroconvulsive therapy (ECT) medical procedure. ECT is typically administered under general anesthesia, so you will not feel any pain during the procedure. During ECT, electrodes are placed on your head. The electric current is then passed through your brain for a few seconds. This causes a seizure, which typically lasts for about 30 seconds.ECT is thought to work by changing the levels of certain chemicals in the brain, such as serotonin and dopamine. These chemicals are thought to play a role in mood regulation.ECT is a very effective treatment for severe depression. In fact, it is one of the most effective treatments available for this condition. Studies have shown that ECT can be effective for up to 80% of people who have not responded to other treatments.ECT is a safe procedure when it is administered correctly by a trained professional. The most common side effects of ECT are short-lived and include headache, nausea, and memory problems.ECT is typically given as a series of treatments, usually 2-3 times per week for 2-4 weeks. The number of treatments needed will vary depending on the individual's response to treatment.ECT is not a cure for depression, but it can be a life-saving treatment for people who have not responded to other treatments. If you are struggling with severe depression, talk to your doctor about whether ECT may be right for you."]
     }
     ]
 }
