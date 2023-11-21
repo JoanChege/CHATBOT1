@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Budbot</title>
+ <link rel="stylesheet" type="text/css" href="style1.css">
+ <script src="script.js"></script>
+</head>
+<body>
+    <div class="center-image">
+        <img src="budbot.png" alt="Budbot image">
+    </div>
+    <h2 style="color : rgb(10, 10, 15); text-align : center; font-weight : bold ; font-family : cursive; ">BUDBOT
+  </h2>
+    <div id="chat-container">
+        <ul id="chat-log">
+          <div class="bot-message-container">
+            <div class="bot-icon"></div>
+            <div class="bot-message" style="margin : 5px 0px ; position : relative">
+              <div class="username-timestamp">
+                <div class="botname">Budbot</div>
+                <div class="timestamp" id="current-time"></div>
+              </div>
+              <div class="bot-output"> Hello, Welcome! I am Budbot.Let's chat</div>
+            </div>
+          </div>
+        </ul>
+    </div>
+    <form>
+        <div id="input-send">
+          <input type="text" placeholder="Let's chat..." name="message"
+            id="message-input">
+          <button type="button" id="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </form>
+</body>
+</html>

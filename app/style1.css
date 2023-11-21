@@ -1,0 +1,167 @@
+body{
+    background: #00563B;
+     background: -webkit-linear-gradient(to right, #088F8F, #01796F, #00563B);
+      background: linear-gradient(to right,  #088F8F, #01796F, #00563B);
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .center-image{
+    display:-webkit-flex;
+    justify-content:center;
+    align-items: center;
+    height: 16vh;
+  }
+  #chat-container {
+    display: flex;
+    flex-direction: column;
+    border : 0px;
+    height : 50vh;
+    overflow-y: scroll;
+    border : 10px solid white;
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;  
+    font-size: 14px;
+    background-image : url("https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=1060&t=st=1679578972~exp=1679579572~hmac=64f1351ffed73bca0382aa275858c47fa78fbf8a2430b9dfd987859e93ee1814");
+  }
+  #chat-log {
+    list-style: none;
+    border: 0px;
+    height: 100%;
+    overflow-y: scroll;
+    background-color : inherit;
+  }
+  .message-text {
+    margin-right: 10px;
+  }
+  
+  .timestamp {
+    color: gray;
+    font-size: 12px;
+  }
+  #send-btn{
+    padding: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    color: rgb(217, 228, 217);
+    border: 0px;
+    border-radius: 10px;
+    margin-left : 10px;
+    font-weight : bold;
+    font-size : 16px;
+    background-color : rgba(0,0,0,0.4);
+  }
+  
+  
+  
+  [type="text"] {
+    padding-left: 20px;
+    color :black;
+  }
+  
+  
+  ::placeholder{
+    color :black;
+  }
+  
+  
+  input{
+    height : 40px;
+    width : 100%;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  div{
+    font-family : sans-serif;
+    color : black;
+    font-weight : lighter ;
+  }
+  #input-send{
+    display : flex;
+    flex-direction : row;
+    margin : 10px;
+    position : static ;
+    bottom : 0;
+  }
+  .user-message{
+    background-color :rgba(5, 14, 65, 0.514);
+    width : 400px;
+    padding : 20px;
+    border-radius : 10px;
+    border-bottom-right-radius : 0px;
+    margin-left : auto;
+    margin-right : 15px;
+  }
+  .bot-message{
+    background-color : rgba(17, 166, 192, 0.404);
+    width : 400px;
+    padding : 10px;
+    margin-right : auto;
+    border-radius : 10px;
+    border-bottom-left-radius : 0px;
+    margin-right : 0px;
+    border : 4px solid whitesmoke;
+  }
+  
+  li{
+    display : flex;
+    flex-direction : column;
+  }
+  .username-timestamp{
+    display : flex;
+    flex-direction : row;
+    height : fit-content;
+  }
+  .username, .botname{
+    font-weight : bold;
+  }
+  .timestamp{
+    margin-left : auto;
+    color : black;
+  
+  }
+  .user-input{
+    padding-top : 10px;
+    color : white;
+  }
+  .bot-output{
+    padding-top : 10px;
+  }
+  .user-message-container{
+    display : flex;
+  }
+  .bot-message-container{
+    display : flex;
+    margin-left : -25px;
+  }
+  .user-icon{
+    width : 50px;
+    height : 50px;
+    margin-top : auto;
+    margin-bottom : auto;
+    border-radius :100%;
+    margin-right : 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image : url("https://img.freepik.com/premium-vector/forest-landscape-scene-night-with-many-different-trees_1308-60189.jpg");
+  }
+  .bot-icon{
+    width : 50px;
+    height : 50px;
+    margin-top : auto;
+    margin-bottom : auto;
+    border-radius :100%;
+    margin-right : 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: "bu";
+  }
+  
